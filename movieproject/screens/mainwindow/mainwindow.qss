@@ -1,5 +1,31 @@
-Header QPushButton{
-   color: blue;
+
+/*===============================MainWindow===========================================*/
+MainWindow {
+  background-color:#E0E2F2;
 }
 
 
+/*==============================Header============================================*/
+Header QPushButton{
+  opacity: .2;
+  background-color: transparent;
+  color: red;
+  margin: -1px;
+  border: 1px solid;
+}
+
+Header QLabel{
+  background-color: transparent;
+  max-height: 40px;
+}
+
+#logoButton {
+  color: red;
+  font-size: 20px;
+}
+
+/*============================sidemenu=============================================*/
+Sidebar QPushButton {
+  width: 20px;
+  height: 10px;
+}
